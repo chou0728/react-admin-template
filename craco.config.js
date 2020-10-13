@@ -18,6 +18,9 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      plugin: require('react-loadable/babel')
     }
   ]
 }
